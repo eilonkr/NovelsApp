@@ -1,0 +1,51 @@
+{
+  "originHash" : "a675fdc5d29db6f48559aa7b0306e9147e361e7edad0626deb398da891e8e3ab",
+  "pins" : [
+    {
+      "identity" : "adaptysdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adaptyteam/AdaptySDK-iOS.git",
+      "state" : {
+        "revision" : "95d1c90b5002a376082e69d41c399b39e407d1aa",
+        "version" : "2.11.0"
+      }
+    },
+    {
+      "identity" : "corekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eilonkr/CoreKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4176a0d6ddd0745c9309a3d553cf574d1eb5bd9d"
+      }
+    },
+    {
+      "identity" : "emailcomposer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gabrieltheodoropoulos/EmailComposer.git",
+      "state" : {
+        "revision" : "6c35d94b4abd760c3d1eb513ea59baabaecad607",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "revision" : "04f2fd18cc9404a0a0917265a449002674f24ec9",
+        "version" : "4.5.2"
+      }
+    },
+    {
+      "identity" : "settingskit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eilonkr/SettingsKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "99b78a25712414edce5e0dcf30c0f92a543ef6f7"
+      }
+    }
+  ],
+  "version" : 3
+}

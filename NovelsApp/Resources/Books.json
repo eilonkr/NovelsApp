@@ -1,0 +1,1062 @@
+[
+  {
+    "style": "spotlight",
+    "title": "Bestsellers This Month",
+    "books": [
+      {
+        "id": "book_001",
+        "title": "The Digital Phantom",
+        "author": "Elena Rodriguez",
+        "genre": "Cyberpunk",
+        "rating": 4.8,
+        "storyDescription": "In a world where consciousness can be digitized, detective Maya Chen must track down a killer who exists only in virtual reality. As she delves deeper into the digital underworld, the line between reality and simulation begins to blur.",
+        "views": 892431,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_002",
+        "title": "Songs of the Starweaver",
+        "author": "Marcus Thornfield",
+        "genre": "Fantasy",
+        "rating": 4.9,
+        "storyDescription": "Young Aria discovers she can weave magic through music, but her gift comes with a price. As dark forces gather to silence her songs forever, she must master her power to save both the mortal world and the realm of stars.",
+        "views": 756234,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_003",
+        "title": "The Last Botanist",
+        "author": "Dr. Sarah Chen",
+        "genre": "Post-Apocalyptic",
+        "rating": 4.7,
+        "storyDescription": "After the Great Withering destroyed most plant life on Earth, botanist Zara Quinn ventures into the wasteland with the last seeds of humanity's hope. Her journey will determine whether life can bloom again.",
+        "views": 643178,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_004",
+        "title": "Midnight in Morocco",
+        "author": "Amira Benali",
+        "genre": "Romance",
+        "rating": 4.6,
+        "storyDescription": "When architect Lila inherits her grandmother's riad in Marrakech, she never expected to fall for the mysterious antiquities dealer next door. But some secrets are buried deeper than the ancient medina's foundations.",
+        "views": 587920,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_005",
+        "title": "The Memory Merchant",
+        "author": "Viktor Petrov",
+        "genre": "SciFi",
+        "rating": 4.8,
+        "storyDescription": "In a future where memories can be extracted and sold, black market dealer Kai stumbles upon a memory that could topple governments. Now every faction in the city wants him dead or under their control.",
+        "views": 512876,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_006",
+        "title": "Shadows Over Edinburgh",
+        "author": "Fiona MacLeod",
+        "genre": "Mystery",
+        "rating": 4.5,
+        "storyDescription": "Set in 1889 Edinburgh, detective inspector James McBride investigates a series of murders that seem connected to the city's dark folklore. But the truth is more terrifying than any legend.",
+        "views": 478132,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_007",
+        "title": "The Quantum Thief",
+        "author": "Alex Morrison",
+        "genre": "SciFi",
+        "rating": 4.9,
+        "storyDescription": "Master thief Ren uses quantum mechanics to phase through solid matter, but when she steals from the wrong corporation, she finds herself hunted across multiple dimensions of reality.",
+        "views": 445789,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_008",
+        "title": "Hearts in the Himalayas",
+        "author": "Priya Sharma",
+        "genre": "Romance",
+        "rating": 4.4,
+        "storyDescription": "Mountain guide Tenzin never expected to rescue a stubborn wildlife photographer from a blizzard, much less fall in love with her. But the mountains hold secrets that could tear them apart.",
+        "views": 398521,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_009",
+        "title": "The Clockwork Conspiracy",
+        "author": "Nathaniel Gears",
+        "genre": "Steampunk",
+        "rating": 4.7,
+        "storyDescription": "In an alternate Victorian London powered by steam and clockwork, inventor Cordelia Brass discovers a conspiracy that threatens to plunge the empire into eternal darkness.",
+        "views": 367843,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_010",
+        "title": "Whispers from Tomorrow",
+        "author": "Luna Martinez",
+        "genre": "Romance",
+        "rating": 4.6,
+        "storyDescription": "When temporal physicist Emma receives messages from her future self warning of disaster, she must choose between saving the world and saving the love of her life.",
+        "views": 321456,
+        "coverImageName": "book-10"
+      }
+    ]
+  },
+  {
+    "style": "threeByThreeWide",
+    "title": "Fantasy Realms",
+    "books": [
+      {
+        "id": "book_011",
+        "title": "Crown of Dragons",
+        "author": "Lysander Black",
+        "genre": "Fantasy",
+        "rating": 4.8,
+        "storyDescription": "Princess Lyra must unite the five dragon clans before an ancient evil awakens. With only a mysterious sword and her wits, she embarks on a quest that will determine the fate of all magical creatures.",
+        "views": 789123,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_012",
+        "title": "The Mage's Apprentice",
+        "author": "Celeste Windham",
+        "genre": "Fantasy",
+        "rating": 4.5,
+        "storyDescription": "Orphan boy Finn discovers he has the rare gift of shadow magic, but his powers attract the attention of both protectors and predators in the magical academy.",
+        "views": 654321,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_013",
+        "title": "Realm of the Phoenix",
+        "author": "Kai Nakamura",
+        "genre": "Fantasy",
+        "rating": 4.7,
+        "storyDescription": "In a world where elemental spirits grant power to chosen warriors, young monk Akira must master the forbidden art of phoenix fire to stop an invasion from the shadow realm.",
+        "views": 567890,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_014",
+        "title": "The Witch of Thornwood",
+        "author": "Morgana Blackwood",
+        "genre": "Fantasy",
+        "rating": 4.6,
+        "storyDescription": "Banished witch Raven returns to her homeland to find it cursed and dying. To break the spell, she must confront the dark magic she swore never to use again.",
+        "views": 489765,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_015",
+        "title": "Swords of the Fallen",
+        "author": "Garrett Ironborn",
+        "genre": "Fantasy",
+        "rating": 4.4,
+        "storyDescription": "Mercenary warrior Thane discovers that the blades he carries are forged from the souls of fallen heroes. Now he must decide whether to wield their power or set them free.",
+        "views": 423187,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_016",
+        "title": "The Crystal Prophecy",
+        "author": "Aurora Stormcaller",
+        "genre": "Fantasy",
+        "rating": 4.9,
+        "storyDescription": "When the ancient crystals that protect the realm begin to shatter, scholar-turned-hero Aria must decipher a prophecy written in a language that died with the gods.",
+        "views": 378451,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_017",
+        "title": "Guardian of the Grove",
+        "author": "Willow Greenleaf",
+        "genre": "Fantasy",
+        "rating": 4.5,
+        "storyDescription": "Druid Sage can speak to the ancient trees, but when loggers threaten the last magical forest, she must unite all woodland creatures in an epic battle for survival.",
+        "views": 345672,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_018",
+        "title": "The Shadow Knight",
+        "author": "Damien Shadowbane",
+        "genre": "Fantasy",
+        "rating": 4.7,
+        "storyDescription": "Sir Roderick was once the kingdom's greatest knight until dark magic transformed him into the very evil he fought. Now he seeks redemption while battling the monster within.",
+        "views": 312458,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_019",
+        "title": "Spells and Starlight",
+        "author": "Nova Celestine",
+        "genre": "Fantasy",
+        "rating": 4.3,
+        "storyDescription": "Astronomer-mage Luna discovers that the stars themselves are sentient beings. When she falls in love with a star-prince, their forbidden romance threatens to upset the cosmic order.",
+        "views": 289134,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_020",
+        "title": "The Lost Kingdom",
+        "author": "Magnus Goldbeard",
+        "genre": "Fantasy",
+        "rating": 4.6,
+        "storyDescription": "Explorer captain Drake follows an ancient map to find a kingdom that vanished a thousand years ago, but the treasure he seeks may be more dangerous than the journey.",
+        "views": 267891,
+        "coverImageName": "book-10"
+      }
+    ]
+  },
+  {
+    "style": "threeByThree",
+    "title": "Sci-Fi Adventures",
+    "books": [
+      {
+        "id": "book_021",
+        "title": "Starship Horizon",
+        "author": "Captain Rex Sterling",
+        "genre": "Opera",
+        "rating": 4.8,
+        "storyDescription": "When the generation ship Horizon receives a distress signal from Earth after 200 years of silence, Commander Vale must decide whether to continue their mission or return to a world that may no longer exist.",
+        "views": 892341,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_022",
+        "title": "The Android's Dream",
+        "author": "Dr. Isaac Volta",
+        "genre": "Fiction",
+        "rating": 4.7,
+        "storyDescription": "Android ARIA-7 begins experiencing dreams and emotions, challenging everything humans believe about artificial consciousness. But her awakening threatens both species' survival.",
+        "views": 745628,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_023",
+        "title": "Terraform",
+        "author": "Maria Santos",
+        "genre": "Science",
+        "rating": 4.6,
+        "storyDescription": "On Mars, terraforming engineer Clara discovers that the planet's transformation is awakening something ancient and hostile beneath the red soil.",
+        "views": 623789,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_024",
+        "title": "The Void Walker",
+        "author": "Zara Voidstar",
+        "genre": "Fantasy",
+        "rating": 4.9,
+        "storyDescription": "Pilot Kess can navigate the spaces between dimensions, but when she accidentally brings something back from the void, reality itself begins to unravel.",
+        "views": 567123,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_025",
+        "title": "Neon Rebellion",
+        "author": "Jax Cyber",
+        "genre": "Cyberpunk",
+        "rating": 4.5,
+        "storyDescription": "In Neo-Tokyo 2087, hacker-for-hire Raven discovers a conspiracy that goes to the highest levels of the corporate hierarchy. Fighting the system has never been more dangerous.",
+        "views": 498765,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_026",
+        "title": "The Time Paradox",
+        "author": "Professor Elena Chronos",
+        "genre": "Travel",
+        "rating": 4.4,
+        "storyDescription": "Temporal researcher Dr. Hayes accidentally creates a paradox that threatens to erase her timeline. Now she's racing against time itself to fix what she's broken.",
+        "views": 445789,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_027",
+        "title": "Galactic Empire",
+        "author": "Admiral Konstantin Vex",
+        "genre": "Sci-Fi",
+        "rating": 4.7,
+        "storyDescription": "When the Galactic Senate falls to a military coup, rebel commander Nash must unite the outer colonies in a desperate fight for freedom across the stars.",
+        "views": 389456,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_028",
+        "title": "Bio-Genesis",
+        "author": "Dr. Helena Cross",
+        "genre": "Biopunk",
+        "rating": 4.3,
+        "storyDescription": "Geneticist Sara creates the perfect human enhancement serum, but when test subjects begin evolving beyond humanity, she realizes she may have doomed the species.",
+        "views": 334567,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_029",
+        "title": "The Quantum Gate",
+        "author": "Phoenix Starweaver",
+        "genre": "Fiction",
+        "rating": 4.6,
+        "storyDescription": "When scientist Maya opens a gateway to parallel universes, she discovers infinite versions of herself\u2014and learns that some doors should never be opened.",
+        "views": 298734,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_030",
+        "title": "Colony Ship",
+        "author": "Captain Torres",
+        "genre": "Ship",
+        "rating": 4.8,
+        "storyDescription": "Born on a spaceship traveling to Alpha Centauri, engineer Zoe has never seen a planet. But when the ship's systems fail, she must choose between her home and her destination.",
+        "views": 267891,
+        "coverImageName": "book-10"
+      }
+    ]
+  },
+  {
+    "style": "vertical",
+    "title": "Mystery & Thriller",
+    "books": [
+      {
+        "id": "book_031",
+        "title": "The Silent Witness",
+        "author": "Detective Sarah Kane",
+        "genre": "Procedural",
+        "rating": 4.7,
+        "storyDescription": "When a mute child is the only witness to a brutal murder, Detective Kane must find new ways to uncover the truth before the killer strikes again.",
+        "views": 678945,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_032",
+        "title": "Blood Moon Rising",
+        "author": "Jack Raven",
+        "genre": "Thriller",
+        "rating": 4.5,
+        "storyDescription": "FBI agent Mills investigates a series of murders that only occur during the full moon, leading her into a world where monsters are real and very dangerous.",
+        "views": 589123,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_033",
+        "title": "The Art Forger",
+        "author": "Isabella Romano",
+        "genre": "Crime",
+        "rating": 4.6,
+        "storyDescription": "Gallery owner Emma discovers that half her collection consists of perfect forgeries. As she digs deeper, she uncovers an international conspiracy involving stolen masterpieces.",
+        "views": 456789,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_034",
+        "title": "Cold Case Colorado",
+        "author": "Sheriff Tom Bradley",
+        "genre": "Case",
+        "rating": 4.4,
+        "storyDescription": "Twenty years after a ski resort murder went unsolved, new evidence emerges. Sheriff Bradley must reopen old wounds and confront family secrets buried in the mountains.",
+        "views": 398765,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_035",
+        "title": "The Vanishing Act",
+        "author": "Magician's Assistant",
+        "genre": "Thriller",
+        "rating": 4.8,
+        "storyDescription": "When a famous magician disappears during his greatest trick, his assistant must navigate a world of illusion and betrayal to discover what really happened on stage that night.",
+        "views": 367812,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_036",
+        "title": "Digital Stalker",
+        "author": "Cyber Detective Lisa Park",
+        "genre": "Thriller",
+        "rating": 4.3,
+        "storyDescription": "Online predator hunter Lisa becomes the target when she gets too close to uncovering the identity of a sophisticated cybercriminal who knows her every move.",
+        "views": 334567,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_037",
+        "title": "The Poisoner's Garden",
+        "author": "Dr. Botanical Forensics",
+        "genre": "Mystery",
+        "rating": 4.5,
+        "storyDescription": "Botanist-detective Rose investigates deaths by exotic plant poisoning in her quaint English village, discovering that even the most peaceful gardens can harbor deadly secrets.",
+        "views": 298734,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_038",
+        "title": "Midnight Express",
+        "author": "Conductor James Rail",
+        "genre": "Room",
+        "rating": 4.7,
+        "storyDescription": "A murder occurs on the overnight train to Chicago, and detective Claire has until dawn to solve the case before the killer disappears into the city's crowds.",
+        "views": 276543,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_039",
+        "title": "The Insider",
+        "author": "Corporate Spy Nina Black",
+        "genre": "Thriller",
+        "rating": 4.6,
+        "storyDescription": "Investment banker turned whistleblower Sam discovers her firm is laundering money for international criminals. Now she's racing to expose the truth before they silence her forever.",
+        "views": 245698,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_040",
+        "title": "Gone Without a Trace",
+        "author": "Missing Persons Detective Ray",
+        "genre": "Person",
+        "rating": 4.4,
+        "storyDescription": "When an entire family vanishes from their locked home with dinner still warm on the table, Detective Morrison must solve the impossible disappearance that has no logical explanation.",
+        "views": 223481,
+        "coverImageName": "book-10"
+      }
+    ]
+  },
+  {
+    "style": "threeByThreeWide",
+    "title": "Romance Collection",
+    "books": [
+      {
+        "id": "book_041",
+        "title": "Love in the City",
+        "author": "Sophie Manhattan",
+        "genre": "Romance",
+        "rating": 4.6,
+        "storyDescription": "Workaholic attorney Emma never believed in love at first sight until she meets the charming coffee shop owner who challenges everything she thought she wanted in life.",
+        "views": 712345,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_042",
+        "title": "Highland Heart",
+        "author": "Moira MacPherson",
+        "genre": "Romance",
+        "rating": 4.8,
+        "storyDescription": "When English lady Catherine is captured by Scottish laird Ewan during a border raid, their initial hatred slowly transforms into a passionate love that could unite or destroy both their clans.",
+        "views": 634789,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_043",
+        "title": "Second Chances",
+        "author": "Grace Sullivan",
+        "genre": "Chance",
+        "rating": 4.5,
+        "storyDescription": "Ten years after their painful breakup, former high school sweethearts Jake and Lily are forced to work together to save their hometown's annual festival. Can they rebuild trust and rediscover love?",
+        "views": 567234,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_044",
+        "title": "The Billionaire's Secret",
+        "author": "Victoria Sterling",
+        "genre": "Romance",
+        "rating": 4.4,
+        "storyDescription": "When tech mogul Adrian hires single mom Sarah as his assistant, he's determined to keep things professional. But some attractions are too powerful to ignore, even for a man who controls everything.",
+        "views": 489632,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_045",
+        "title": "Beach House Summer",
+        "author": "Coral Bay",
+        "genre": "Romance",
+        "rating": 4.7,
+        "storyDescription": "City girl Maya inherits a beach house and plans to sell it quickly, but the ruggedly handsome contractor hired to fix it up makes her reconsider what she really wants from life.",
+        "views": 423187,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_046",
+        "title": "The Doctor's Heart",
+        "author": "Nurse Practitioner Lisa",
+        "genre": "Romance",
+        "rating": 4.3,
+        "storyDescription": "ER doctor Marcus has sworn off workplace romance until new nurse practitioner Ana arrives and challenges his professional boundaries while saving lives alongside him.",
+        "views": 378965,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_047",
+        "title": "Fake Engagement",
+        "author": "Wedding Planner Extraordinaire",
+        "genre": "Relationship",
+        "rating": 4.6,
+        "storyDescription": "When event planner Zoe needs a fake fianc\u00e9 to impress a difficult client, her best friend's arrogant brother volunteers. But pretending to be in love becomes surprisingly real.",
+        "views": 342156,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_048",
+        "title": "Small Town Sheriff",
+        "author": "Country Roads Katie",
+        "genre": "Town",
+        "rating": 4.5,
+        "storyDescription": "Big city lawyer returns to her hometown to settle her grandmother's estate and clashes with the local sheriff who's determined to protect the town from developers like her.",
+        "views": 298743,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_049",
+        "title": "The Plus One",
+        "author": "Wedding Guest Expert",
+        "genre": "Romance",
+        "rating": 4.4,
+        "storyDescription": "Professional plus-one Mia makes a living attending weddings with lonely singles. But when she's hired by commitment-phobic CEO Ryan, she faces her biggest challenge yet: making him believe in love.",
+        "views": 267834,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_050",
+        "title": "Enemies to Lovers",
+        "author": "Rivals in Love",
+        "genre": "to",
+        "rating": 4.7,
+        "storyDescription": "Competing food truck owners Dante and Rosa have been rivals for years, but when they're forced to work together for a city festival, their heated arguments turn into passionate attraction.",
+        "views": 234567,
+        "coverImageName": "book-10"
+      }
+    ]
+  },
+  {
+    "style": "spotlight",
+    "title": "Young Adult Favorites",
+    "books": [
+      {
+        "id": "book_051",
+        "title": "The Chosen Academy",
+        "author": "Luna Starbridge",
+        "genre": "Fantasy",
+        "rating": 4.8,
+        "storyDescription": "Sixteen-year-old Mia discovers she's been accepted to a secret school for magical teens. But when students start disappearing, she realizes the academy hides darker secrets than she imagined.",
+        "views": 945678,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_052",
+        "title": "Rebel's Code",
+        "author": "Tech Prodigy Max",
+        "genre": "Dystopian",
+        "rating": 4.6,
+        "storyDescription": "In a world where creativity is banned, teenage hacker Kai uses underground art to fight the oppressive system. But when her brother is captured, she must choose between freedom and family.",
+        "views": 823456,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_053",
+        "title": "Werewolf Summer",
+        "author": "Full Moon Fiction",
+        "genre": "Paranormal",
+        "rating": 4.7,
+        "storyDescription": "When seventeen-year-old Sage moves to a small mountain town, she never expected to fall for the mysterious boy who turns into a wolf. But love comes with dangerous consequences.",
+        "views": 756234,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_054",
+        "title": "The Memory Thieves",
+        "author": "Timekeeper Chronicles",
+        "genre": "Science",
+        "rating": 4.5,
+        "storyDescription": "In a future where memories can be stolen, teenager Alex discovers she's immune to memory extraction. Now she's humanity's last hope against the corporation that controls the past.",
+        "views": 689123,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_055",
+        "title": "Dead Girls Don't Cry",
+        "author": "Zombie High School",
+        "genre": "Horror",
+        "rating": 4.4,
+        "storyDescription": "When the zombie apocalypse hits during prom night, popular girl Ashley must team up with outcasts and nerds to survive. High school cliques mean nothing when everyone's trying to eat your brains.",
+        "views": 612458,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_056",
+        "title": "Royal Deception",
+        "author": "Princess Undercover",
+        "genre": "Contemporary",
+        "rating": 4.3,
+        "storyDescription": "Princess Elena escapes her royal duties by enrolling in public high school under a fake identity. But keeping her secret becomes harder when she falls for the class president.",
+        "views": 545789,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_057",
+        "title": "The Elementalists",
+        "author": "Four Powers United",
+        "genre": "Urban",
+        "rating": 4.9,
+        "storyDescription": "Four teenagers discover they can control the elements, but their powers are linked to an ancient prophecy about preventing the end of the world. No pressure.",
+        "views": 478963,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_058",
+        "title": "Invisible Girl",
+        "author": "Misfit Heroes",
+        "genre": "Superhero",
+        "rating": 4.6,
+        "storyDescription": "Shy teenager Violet discovers she can turn invisible, but her newfound power attracts the attention of both heroes and villains who want to use her abilities for their own purposes.",
+        "views": 412357,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_059",
+        "title": "The Underground",
+        "author": "Rebellion Rising",
+        "genre": "Dystopian",
+        "rating": 4.5,
+        "storyDescription": "In a society where emotions are regulated by daily injections, teenager Maya stops taking her doses and discovers that feeling everything is both beautiful and dangerous.",
+        "views": 356782,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_060",
+        "title": "Time Loop Tuesday",
+        "author": "Groundhog Day Girl",
+        "genre": "Time",
+        "rating": 4.7,
+        "storyDescription": "Seventeen-year-old Casey is stuck reliving the same day over and over until she figures out how to prevent a tragedy. But changing fate is harder than she thought.",
+        "views": 298456,
+        "coverImageName": "book-10"
+      }
+    ]
+  },
+  {
+    "style": "threeByThree",
+    "title": "Horror & Supernatural",
+    "books": [
+      {
+        "id": "book_061",
+        "title": "The Haunting of Blackwood Manor",
+        "author": "Edgar Darkmore",
+        "genre": "Horror",
+        "rating": 4.7,
+        "storyDescription": "When paranormal investigator Dr. Sarah Blackwood inherits her family's ancestral manor, she discovers that some family secrets are better left buried in the shadows of the past.",
+        "views": 634521,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_062",
+        "title": "Wendigo Woods",
+        "author": "Forest Fears",
+        "genre": "Horror",
+        "rating": 4.5,
+        "storyDescription": "A camping trip in the Canadian wilderness turns deadly when hikers encounter something ancient and hungry that has been waiting in the dark corners of the forest.",
+        "views": 567834,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_063",
+        "title": "The Doll Collector",
+        "author": "Porcelain Nightmares",
+        "genre": "Horror",
+        "rating": 4.6,
+        "storyDescription": "Antique doll restorer Miranda begins experiencing disturbing visions after acquiring a Victorian-era doll collection. Some toys never stop playing, even after death.",
+        "views": 489756,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_064",
+        "title": "Blood Moon Covenant",
+        "author": "Vampire Chronicles",
+        "genre": "Horror",
+        "rating": 4.8,
+        "storyDescription": "In a small town where vampires have lived secretly for centuries, a young woman discovers she's the key to an ancient covenant that could either save or damn them all.",
+        "views": 423789,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_065",
+        "title": "The Exorcism Tapes",
+        "author": "Father Benedict Cross",
+        "genre": "Horror",
+        "rating": 4.4,
+        "storyDescription": "Rookie priest Father Martinez assists in his first exorcism, but the demon they're fighting knows secrets about his past that could destroy his faith and his sanity.",
+        "views": 378456,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_066",
+        "title": "Midnight Carnival",
+        "author": "Circus of Shadows",
+        "genre": "Horror",
+        "rating": 4.3,
+        "storyDescription": "A mysterious carnival appears overnight in the small town of Millbrook, bringing wonder and terror in equal measure. Some attractions are more deadly than others.",
+        "views": 342178,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_067",
+        "title": "The Skin Walker",
+        "author": "Native Nightmares",
+        "genre": "Horror",
+        "rating": 4.7,
+        "storyDescription": "On the Navajo reservation, detective Joe Yazzie investigates murders that seem connected to ancient legends. Some traditions are warnings, not stories.",
+        "views": 298567,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_068",
+        "title": "House of Mirrors",
+        "author": "Reflection Terror",
+        "genre": "House",
+        "rating": 4.5,
+        "storyDescription": "The funhouse mirror maze at the abandoned amusement park shows reflections that move independently. Some mirrors reflect more than just your image\u2014they show your soul.",
+        "views": 267834,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_069",
+        "title": "The Witch's Curse",
+        "author": "Salem's Daughter",
+        "genre": "Horror",
+        "rating": 4.6,
+        "storyDescription": "When developer Richard plans to build condos on cursed land, the witch who was burned there 300 years ago awakens to protect her final resting place.",
+        "views": 234789,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_070",
+        "title": "Zombie Apocalypse: Day One",
+        "author": "Undead Chronicles",
+        "genre": "Horror",
+        "rating": 4.4,
+        "storyDescription": "Nurse Janet is working the night shift when the first infected patients arrive. As the hospital becomes ground zero for the outbreak, survival means making impossible choices.",
+        "views": 212456,
+        "coverImageName": "book-10"
+      }
+    ]
+  },
+  {
+    "style": "vertical",
+    "title": "Historical Fiction",
+    "books": [
+      {
+        "id": "book_071",
+        "title": "Letters from Normandy",
+        "author": "War Correspondent Jane",
+        "genre": "Historical",
+        "rating": 4.8,
+        "storyDescription": "French resistance fighter Marie risks everything to pass intelligence to the Allies during D-Day, but her secret mission puts her family and the man she loves in mortal danger.",
+        "views": 723456,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_072",
+        "title": "The Silk Road Merchant",
+        "author": "Ancient Trader Tales",
+        "genre": "Historical",
+        "rating": 4.6,
+        "storyDescription": "Following the adventures of Chinese merchant Li Wei as he travels the dangerous Silk Road in 200 CE, facing bandits, political intrigue, and the challenge of cultural exchange.",
+        "views": 645789,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_073",
+        "title": "Victorian Secrets",
+        "author": "London Chronicles",
+        "genre": "Historical",
+        "rating": 4.7,
+        "storyDescription": "In 1887 London, telegraph operator Constance discovers that the messages she's sending contain coded instructions for a conspiracy that reaches the highest levels of society.",
+        "views": 578234,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_074",
+        "title": "The Pharaoh's Daughter",
+        "author": "Egyptian Mysteries",
+        "genre": "Egypt",
+        "rating": 4.5,
+        "storyDescription": "Princess Ankhesenamun navigates the treacherous politics of the Egyptian court while secretly working to preserve the old gods during the religious revolution of her father, Akhenaten.",
+        "views": 489356,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_075",
+        "title": "Samurai Honor",
+        "author": "Bushido Master",
+        "genre": "Japan",
+        "rating": 4.9,
+        "storyDescription": "In 16th century Japan, masterless samurai Koji must choose between his code of honor and saving his village when war threatens to destroy everything he holds dear.",
+        "views": 412789,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_076",
+        "title": "The Underground Railroad",
+        "author": "Freedom Fighter Sarah",
+        "genre": "War",
+        "rating": 4.6,
+        "storyDescription": "Quaker seamstress Hannah risks her life running a station on the Underground Railroad, helping enslaved people find freedom while dodging bounty hunters and suspicious neighbors.",
+        "views": 367845,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_077",
+        "title": "Renaissance Artist",
+        "author": "Michelangelo's Apprentice",
+        "genre": "Historical",
+        "rating": 4.4,
+        "storyDescription": "Young Lorenzo apprentices to a master painter in Florence, but his talent attracts the dangerous attention of both the Medici family and their enemies.",
+        "views": 323456,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_078",
+        "title": "The Viking's Daughter",
+        "author": "Norse Saga Writer",
+        "genre": "Historical",
+        "rating": 4.7,
+        "storyDescription": "Shield-maiden Freydis must lead her people across the dangerous seas to a new land when climate change threatens their homeland in 10th century Scandinavia.",
+        "views": 289734,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_079",
+        "title": "Gold Rush Dreams",
+        "author": "Frontier Stories",
+        "genre": "West",
+        "rating": 4.3,
+        "storyDescription": "During the 1849 California Gold Rush, Irish immigrant Siobhan disguises herself as a man to stake her claim, but keeping her secret in the rough mining camps proves deadly.",
+        "views": 256781,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_080",
+        "title": "The Last Aztec",
+        "author": "Conquistador Chronicles",
+        "genre": "Historical",
+        "rating": 4.5,
+        "storyDescription": "As Cort\u00e9s conquers the Aztec Empire, warrior-priest Itzel fights to preserve his people's knowledge and culture while the world he's known crumbles around him.",
+        "views": 223467,
+        "coverImageName": "book-10"
+      }
+    ]
+  },
+  {
+    "style": "threeByThreeWide",
+    "title": "Adventure & Action",
+    "books": [
+      {
+        "id": "book_081",
+        "title": "Treasure of the Lost City",
+        "author": "Explorer Jack Stone",
+        "genre": "Adventure",
+        "rating": 4.7,
+        "storyDescription": "Archaeologist Dr. Elena Vasquez races against time and rival treasure hunters to find the lost city of El Dorado before its ancient guardians awaken to protect their gold.",
+        "views": 834567,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_082",
+        "title": "Arctic Survival",
+        "author": "Wilderness Expert Mike",
+        "genre": "Adventure",
+        "rating": 4.5,
+        "storyDescription": "When a plane crash strands survival expert Bear McKenzie in the Arctic wilderness, he must use all his skills to stay alive while being hunted by something that shouldn't exist.",
+        "views": 756234,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_083",
+        "title": "The Spy's Mission",
+        "author": "Agent Double-O-Seven",
+        "genre": "Thriller",
+        "rating": 4.8,
+        "storyDescription": "International spy Victoria Cross must infiltrate a criminal organization planning to steal nuclear weapons, but when her cover is blown, she becomes the most wanted woman in Europe.",
+        "views": 689123,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_084",
+        "title": "Mountain Rescue",
+        "author": "Alpine Adventures",
+        "genre": "Adventure",
+        "rating": 4.4,
+        "storyDescription": "When an avalanche traps climbers on K2, rescue specialist Maya Chen leads a dangerous mission up the world's deadliest mountain with time running out and a storm approaching.",
+        "views": 612458,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_085",
+        "title": "Pirates of the Caribbean",
+        "author": "Captain Bloodbeard",
+        "genre": "Adventure",
+        "rating": 4.6,
+        "storyDescription": "Captain Isabella 'Red' Morgan commands the fastest ship in the Caribbean, but when she steals from the wrong Spanish galleon, she finds herself hunted by both the navy and rival pirates.",
+        "views": 545789,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_086",
+        "title": "The Heist",
+        "author": "Master Thief",
+        "genre": "Adventure",
+        "rating": 4.7,
+        "storyDescription": "Professional thief Danny Ocean assembles the perfect crew to steal from an impossible target: a casino vault three floors underground with the most advanced security in the world.",
+        "views": 478963,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_087",
+        "title": "Jungle Expedition",
+        "author": "Amazon Explorer",
+        "genre": "Adventure",
+        "rating": 4.3,
+        "storyDescription": "Botanist Dr. Green leads an expedition into the Amazon rainforest to find a legendary healing plant, but the jungle holds dangers both natural and supernatural.",
+        "views": 412357,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_088",
+        "title": "The Last Samurai",
+        "author": "Warrior's Path",
+        "genre": "Arts",
+        "rating": 4.9,
+        "storyDescription": "In modern Tokyo, the last guardian of an ancient samurai tradition must protect a sacred sword from yakuza criminals who want to use its power for evil.",
+        "views": 356782,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_089",
+        "title": "Desert Storm",
+        "author": "Sandstorm Survivor",
+        "genre": "Adventure",
+        "rating": 4.5,
+        "storyDescription": "Nomad guide Amir leads a rescue mission into the Sahara Desert to find a missing research team, but the desert holds more than heat and sand\u2014ancient secrets guard their path.",
+        "views": 298456,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_090",
+        "title": "Urban Warrior",
+        "author": "Street Fighter",
+        "genre": "Action",
+        "rating": 4.6,
+        "storyDescription": "Ex-military Marcus uses his combat skills to clean up the streets of Detroit, but when he targets the wrong crime boss, he becomes the hunted instead of the hunter.",
+        "views": 267834,
+        "coverImageName": "book-10"
+      }
+    ]
+  },
+  {
+    "style": "spotlight",
+    "title": "Editor's Picks",
+    "books": [
+      {
+        "id": "book_091",
+        "title": "The Emotional Algorithm",
+        "author": "Dr. Ava Turing",
+        "genre": "Science",
+        "rating": 4.9,
+        "storyDescription": "When AI researcher Dr. Turing creates the first truly emotional artificial intelligence, she must grapple with questions of consciousness, love, and what it means to be human in an age of thinking machines.",
+        "views": 967543,
+        "coverImageName": "book-1"
+      },
+      {
+        "id": "book_092",
+        "title": "The Weight of Silence",
+        "author": "Maria Elena Santos",
+        "genre": "Fiction",
+        "rating": 4.8,
+        "storyDescription": "Three generations of women in a Mexican-American family navigate love, loss, and identity as they each face defining moments that will shape their understanding of home and belonging.",
+        "views": 845721,
+        "coverImageName": "book-2"
+      },
+      {
+        "id": "book_093",
+        "title": "Quantum Hearts",
+        "author": "Professor Elena Vasquez",
+        "genre": "Romance",
+        "rating": 4.7,
+        "storyDescription": "Quantum physicist Elena discovers that love operates on the same principles as quantum entanglement when she falls for her research partner across parallel dimensions.",
+        "views": 723456,
+        "coverImageName": "book-3"
+      },
+      {
+        "id": "book_094",
+        "title": "The Mapmaker's Daughter",
+        "author": "Cartographer's Guild",
+        "genre": "Adventure",
+        "rating": 4.6,
+        "storyDescription": "In 1492, Isabella accompanies her father on Columbus's voyage to the New World, but she discovers that the maps they're using hide more than just geographical secrets.",
+        "views": 656789,
+        "coverImageName": "book-4"
+      },
+      {
+        "id": "book_095",
+        "title": "Synaptic Dreams",
+        "author": "Neuroscientist's Journal",
+        "genre": "Neurofiction",
+        "rating": 4.8,
+        "storyDescription": "Brain surgeon Dr. Nash can enter patients' dreams to heal trauma, but when she gets trapped in the nightmare of a coma patient, she must face her own deepest fears to escape.",
+        "views": 589234,
+        "coverImageName": "book-5"
+      },
+      {
+        "id": "book_096",
+        "title": "The Color of Music",
+        "author": "Synesthetic Symphony",
+        "genre": "Fiction",
+        "rating": 4.5,
+        "storyDescription": "Born with synesthesia, composer Aria can see music as colors. When she discovers that certain color combinations can heal emotional wounds, she must choose between fame and helping others.",
+        "views": 512678,
+        "coverImageName": "book-6"
+      },
+      {
+        "id": "book_097",
+        "title": "Echoes of Tomorrow",
+        "author": "Time Fragments",
+        "genre": "Fiction",
+        "rating": 4.9,
+        "storyDescription": "Philosophy professor David receives glimpses of possible futures, forcing him to question free will, destiny, and whether knowing what might happen means he's obligated to change it.",
+        "views": 467823,
+        "coverImageName": "book-7"
+      },
+      {
+        "id": "book_098",
+        "title": "The Garden of Memory",
+        "author": "Alzheimer's Warrior",
+        "genre": "Drama",
+        "rating": 4.7,
+        "storyDescription": "Geriatrician Dr. Sarah Chen develops an experimental treatment for Alzheimer's, but when her own mother becomes her patient, the personal and professional collide in unexpected ways.",
+        "views": 398765,
+        "coverImageName": "book-8"
+      },
+      {
+        "id": "book_099",
+        "title": "Binary Hearts",
+        "author": "Code Poet",
+        "genre": "Romance",
+        "rating": 4.4,
+        "storyDescription": "Rival programmers Alex and Sam compete to create the perfect dating algorithm, but their professional rivalry turns personal when they realize they might be perfect for each other.",
+        "views": 334567,
+        "coverImageName": "book-9"
+      },
+      {
+        "id": "book_100",
+        "title": "The Last Library",
+        "author": "Book Guardian",
+        "genre": "Literary",
+        "rating": 4.6,
+        "storyDescription": "In a world where digital media has replaced physical books, librarian Maya protects the last library on Earth, but when the government orders its destruction, she must choose between law and literature.",
+        "views": 289456,
+        "coverImageName": "book-10"
+      }
+    ]
+  }
+]
