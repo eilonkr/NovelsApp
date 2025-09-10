@@ -32,6 +32,9 @@ enum AppTab: Int, CaseIterable {
 
 struct RootView: View {
     @State private var dataSource = BooksDataSource()
+    @State private var bookmarksModel = BookmarksModel()
+    @State private var readingLibrary = ReadingLibrary()
+    @State private var readingGoals = ReadingGoalsModel()
     @AppStorage("currentTab") private var currentTab = AppTab.discover
     
     var body: some View {
@@ -45,6 +48,9 @@ struct RootView: View {
             }
         }
         .environment(dataSource)
+        .environment(bookmarksModel)
+        .environment(readingLibrary)
+        .environment(readingGoals)
     }
     
     @ViewBuilder private func tabView(for tab: AppTab) -> some View {
@@ -52,7 +58,7 @@ struct RootView: View {
         case .discover:
             DiscoverView()
         case .myBooks:
-            Text("My Books Content")
+            MyBooksView()
         }
     }
 }

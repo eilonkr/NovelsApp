@@ -34,6 +34,8 @@ struct BookShelfView: View {
                 BookShelfThreeByThreeWideView(shelf: shelf)
             case .spotlight:
                 BookShelfSpotlightView(shelf: shelf)
+            case .singleRow:
+                BookShelfSingleRowView(books: shelf.books, maxDisplayBooks: shelf.style.maximumDisplayBooks)
             case .threeByThree, .vertical:
                 // Placeholder views for styles not yet implemented
                 BookShelfSpotlightView(shelf: shelf)

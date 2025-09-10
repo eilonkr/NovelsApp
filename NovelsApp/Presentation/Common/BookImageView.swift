@@ -10,7 +10,11 @@ import SwiftUI
 struct BookImageView: View {
     let book: Book
     
-    @State private var isBookmarked = false
+    @Environment(BookmarksModel.self) private var bookmarks
+    
+    private var isBookmarked: Bool {
+        bookmarks.books.contains(book)
+    }
     
     var body: some View {
         Image(book.coverImageName)
@@ -26,7 +30,11 @@ struct BookImageView: View {
     
     private func bookmarkButton() -> some View {
         Button {
-            isBookmarked.toggle()
+            if isBookmarked {
+                bookmarks.unbookmark(book)
+            } else {
+                bookmarks.bookmark(book)
+            }
         } label: {
             Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
                 .font(.system(size: 12))

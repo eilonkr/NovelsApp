@@ -1,0 +1,36 @@
+//
+//  PersonalLibrary.swift
+//  NovelsApp
+//
+//  Created by Eilon Krauthammer on 10/09/2025.
+//
+
+import SwiftUI
+
+@MainActor @Observable class ReadingLibrary {
+    typealias Progress = Double
+    
+    var lastRead: Book?
+    var reads = [Book: Progress]()
+    
+    // MARK: - Public
+    func progress(for book: Book) -> Progress? {
+        return reads[book]
+    }
+    
+    func readingList() -> [Book]? {
+        guard !reads.isEmpty else {
+            return nil
+        }
+        
+        return booksSortedByProgress()
+    }
+    
+    func booksSortedByProgress() -> [Book] {
+        return reads.sorted { $0.value < $1.value }.map { $0.key }
+    }
+    
+    func completedBooks() -> [Book] {
+        return reads.filter { $0.value == 1.0 }.map { $0.key }
+    }
+}

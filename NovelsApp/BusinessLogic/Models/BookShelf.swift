@@ -13,6 +13,7 @@ struct BookShelf: Decodable, Hashable, Identifiable {
         case threeByThree
         case spotlight
         case vertical
+        case singleRow
         
         var maximumDisplayBooks: Int {
             return switch self {
@@ -20,6 +21,7 @@ struct BookShelf: Decodable, Hashable, Identifiable {
             case .threeByThree: 6
             case .spotlight: 8
             case .vertical: 4
+            case .singleRow: 10
             }
         }
     }
