@@ -123,6 +123,7 @@ struct BookReadingView: View {
         .onAppear {
             loadBookContent()
             reading.startReading()
+            readingLibrary.lastRead = book
         }
         .onDisappear {
             reading.stopReading()
