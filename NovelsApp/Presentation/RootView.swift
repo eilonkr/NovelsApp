@@ -57,8 +57,10 @@ struct RootView: View {
         switch tab {
         case .discover:
             DiscoverView()
+                .bookTransitionRoot()
         case .myBooks:
             MyBooksView()
+                .bookTransitionRoot()
         }
     }
 }

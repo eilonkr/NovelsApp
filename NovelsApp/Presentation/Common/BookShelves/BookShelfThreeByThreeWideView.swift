@@ -36,11 +36,18 @@ struct BookShelfThreeByThreeWideView: View {
 private struct BookWideCardView: View {
     let book: Book
     
+    @Environment(BooksNavigation.self) private var navigation
+    
     var body: some View {
-        HStack(spacing: 12) {
-            BookImageView(book: book)
-            
-            BookCardDetailsView(book: book)
+        Button {
+            navigation.path.append(.bookCover(book))
+        } label: {
+            HStack(spacing: 12) {
+                BookImageView(book: book)
+                
+                BookCardDetailsView(book: book)
+            }
         }
+        .buttonStyle(.plain)
     }
 }

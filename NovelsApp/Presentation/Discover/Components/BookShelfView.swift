@@ -12,6 +12,14 @@ struct BookShelfView: View {
     
     @Environment(BooksNavigation.self) private var navigation
     
+    init(shelf: BookShelf) {
+        self.shelf = shelf
+    }
+    
+    init(style: BookShelf.Style, title: String, books: [Book]) {
+        self.shelf = BookShelf(style: style, title: title, books: books)
+    }
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             Button {
@@ -24,7 +32,7 @@ struct BookShelfView: View {
                         .font(.callout)
                         .foregroundStyle(.secondary)
                 }
-                .font(.system(.body, design: .serif, weight: .bold))
+                .font(.system(.headline, design: .serif, weight: .bold))
             }
             .padding(.horizontal, 16)
             .buttonStyle(.plain)
@@ -37,7 +45,7 @@ struct BookShelfView: View {
             case .singleRow:
                 BookShelfSingleRowView(books: shelf.books, maxDisplayBooks: shelf.style.maximumDisplayBooks)
             case .threeByThree, .vertical:
-                // Placeholder views for styles not yet implemented
+                #warning("Placeholder views for styles not yet implemented")
                 BookShelfSpotlightView(shelf: shelf)
             }
         }

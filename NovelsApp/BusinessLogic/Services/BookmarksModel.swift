@@ -10,7 +10,7 @@ import Foundation
 @Observable class BookmarksModel {
     var books = [Book]()
     
-    func bookmark(_ book: Book) {
+    func bookmark(_ book: Book, ) {
         books.append(book)
     }
     

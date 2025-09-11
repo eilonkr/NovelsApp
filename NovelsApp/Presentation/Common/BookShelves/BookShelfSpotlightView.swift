@@ -29,21 +29,28 @@ struct BookShelfSpotlightView: View {
 struct BookSpotlightCardView: View {
     let book: Book
     
+    @Environment(BooksNavigation.self) private var navigation
+    
     var body: some View {
-        HStack(spacing: 16) {
-            BookImageView(book: book)
-                .offset(y: -10)
-            
-            BookCardDetailsView(book: book)
+        Button {
+            navigation.path.append(.bookCover(book))
+        } label: {
+            HStack(spacing: 16) {
+                BookImageView(book: book)
+                    .offset(y: -10)
+                
+                BookCardDetailsView(book: book)
+            }
+            .containerRelativeFrame(.horizontal) { width, _ in
+                return width * 0.8
+            }
+            .padding(.horizontal, 12)
+            .background {
+                Color(.systemBackground)
+                    .clipShape(.rect(cornerRadius: 12))
+            }
         }
-        .containerRelativeFrame(.horizontal) { width, _ in
-            return width * 0.8
-        }
-        .padding(.horizontal, 12)
-        .background {
-            Color(.systemBackground)
-                .clipShape(.rect(cornerRadius: 12))
-        }
+        .buttonStyle(.plain)
     }
 }
 

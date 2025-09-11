@@ -23,6 +23,7 @@ struct BookShelfSingleRowView: View {
                     BookSingleRowCardView(book: book)
                 }
             }
+            .animation(.smooth(duration: 0.3), value: books)
             .scrollTargetLayout()
         }
         .contentMargins(.horizontal, 16)
@@ -37,25 +38,24 @@ struct BookShelfSingleRowView: View {
 private struct BookSingleRowCardView: View {
     let book: Book
     
+    @Environment(BooksNavigation.self) private var navigation
+    
     var body: some View {
-        VStack(spacing: 8) {
-            BookImageView(book: book)
-            
-            VStack(spacing: 2) {
+        Button {
+            navigation.path.append(.bookCover(book))
+        } label: {
+            VStack(alignment: .leading, spacing: 8) {
+                BookImageView(book: book)
+                
                 Text(book.title)
                     .font(.caption)
-                    .fontWeight(.medium)
                     .lineLimit(2)
-                    .multilineTextAlignment(.center)
                     .foregroundColor(.primary)
-                
-                Text(book.author)
-                    .font(.caption2)
-                    .foregroundColor(.secondary)
-                    .lineLimit(1)
+                    .padding(.leading, 2)
             }
-            .frame(width: 94)
+            .frame(width: 94, alignment: .leading)
         }
+        .buttonStyle(.plain)
     }
 }
 

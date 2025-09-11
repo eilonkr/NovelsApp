@@ -11,7 +11,7 @@ import SwiftUI
     enum Path: Hashable {
         case booksList(BookShelf)
         case bookCover(Book)
-        case reading
+        case reading(Book)
     }
     
     var path = [Path]()
@@ -31,8 +31,8 @@ struct BooksNavigationDestinationViewModifier: ViewModifier {
             BooksListView(shelf: bookShelf)
         case .bookCover(let book):
             BookCoverView(book: book)
-        case .reading:
-            Text("Reading")
+        case .reading(let book):
+            Text("Reading \(book.title)")
         }
     }
 }

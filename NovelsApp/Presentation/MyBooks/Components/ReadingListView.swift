@@ -11,6 +11,10 @@ struct ReadingListView: View {
     @Environment(ReadingLibrary.self) private var library
     
     var body: some View {
-        BookShelfSingleRowView(books: library.readingList()!)
+        if library.reads.isEmpty == false {
+            BookShelfView(style: .singleRow, title: "Reading List", books: library.readingList())
+        } else {
+            Text("You haven't read any books yet.")
+        }
     }
 }

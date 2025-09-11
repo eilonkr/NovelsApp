@@ -20,7 +20,7 @@ struct MyBooksView: View {
     @State private var sections = [Section]()
     
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $navigation.path) {
             ScrollView {
                 LazyVStack(spacing: 24) {
                     ForEach(sections, id: \.self, content: sectionView)
@@ -31,11 +31,11 @@ struct MyBooksView: View {
             .background(.screenBackground)
             .navigationBarTitleDisplayMode(.large)
             .withBooksNavigation()
-            .environment(navigation)
         }
         .onAppear {
             buildSections()
         }
+        .environment(navigation)
     }
     
     @ViewBuilder private func sectionView(_ section: Section) -> some View {

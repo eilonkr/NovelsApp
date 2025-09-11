@@ -11,6 +11,8 @@ struct BookmarkedCarouselView: View {
     @Environment(BookmarksModel.self) private var bookmarks
     
     var body: some View {
-        BookShelfSingleRowView(books: bookmarks.books)
+        if bookmarks.books.isEmpty == false {
+            BookShelfView(style: .singleRow, title: "Bookmarked", books: bookmarks.books)
+        }
     }
 }

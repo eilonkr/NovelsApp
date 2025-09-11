@@ -18,11 +18,7 @@ import SwiftUI
         return reads[book]
     }
     
-    func readingList() -> [Book]? {
-        guard !reads.isEmpty else {
-            return nil
-        }
-        
+    func readingList() -> [Book] {        
         return booksSortedByProgress()
     }
     

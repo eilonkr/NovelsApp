@@ -11,6 +11,9 @@ struct CompletedBooksCarouselView: View {
     @Environment(ReadingLibrary.self) private var library
     
     var body: some View {
-        BookShelfSingleRowView(books: library.completedBooks())
+        let books = library.completedBooks()
+        if books.isEmpty == false {
+            BookShelfView(style: .singleRow, title: "Completed", books: books)
+        }
     }
 }

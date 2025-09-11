@@ -105,7 +105,9 @@ import Observation
     
     /// Stops the current reading session and saves it
     func stopReading() {
-        guard var session = currentSession, session.isActive else { return }
+        guard var session = currentSession, session.isActive else {
+            return
+        }
         
         // End the session
         session.endTime = Date()
