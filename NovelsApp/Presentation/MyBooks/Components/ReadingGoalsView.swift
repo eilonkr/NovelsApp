@@ -29,16 +29,18 @@ struct ReadingGoalsView: View {
 }
 
 struct TodaysReadingView: View {
-    @Environment(ReadingGoalsModel.self) private var readingGoals
+    @Environment(ReadingGoalsModel.self) private var reading
     
     var body: some View {
         VStack(spacing: 12) {
             Text("Today's Reading")
                 .font(.system(.body, design: .serif, weight: .semibold))
             
+            Text(Duration.seconds(reading.todayReadingTime).formatted(.time(pattern: .minuteSecond)))
+                .font(.largeTitle.weight(.semibold))
+                .fontWidth(.expanded)
             
-            
-            Text("Of your \(readingGoals.dailyGoalMinutes)-minute readin goal")
+            Text("Of your \(reading.dailyGoalMinutes)-minute reading goal")
         }
     }
 }

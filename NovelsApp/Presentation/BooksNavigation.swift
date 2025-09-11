@@ -32,7 +32,7 @@ struct BooksNavigationDestinationViewModifier: ViewModifier {
         case .bookCover(let book):
             BookCoverView(book: book)
         case .reading(let book):
-            Text("Reading \(book.title)")
+            BookReadingView(book: book)
         }
     }
 }
