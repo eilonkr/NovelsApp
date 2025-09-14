@@ -25,6 +25,10 @@ import Foundation
         return bookshelves.first { $0.title == title }
     }
     
+    func book(for id: String) -> Book? {
+        return getAllBooks().first { $0.id == id }
+    }
+    
     func getAllBooks() -> [Book] {
         return bookshelves.flatMap { $0.books }
     }
@@ -118,3 +122,4 @@ extension BooksDataSource {
         return bookshelves.count
     }
 }
+

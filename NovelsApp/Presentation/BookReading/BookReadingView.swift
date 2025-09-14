@@ -188,7 +188,7 @@ struct BookReadingView: View {
     
     private func updateReadingProgress(content: BookContent) {
         let progress = Double(currentPageIndex + 1) / Double(content.totalPages)
-        readingLibrary.reads[book] = progress
+        readingLibrary.reads[book.id] = progress
     }
 }
 
@@ -312,9 +312,16 @@ struct ChapterRowView: View {
             }
             .padding(.vertical, 8)
         }
-        .buttonStyle(PlainButtonStyle())
+        .buttonStyle(.plain)
     }
 }
+
+//@ObservableDefaults class BookAppearanceSettings: CodableUserDefaultsPropertyListValue {
+//    var brightness: Double = 0.5
+//    var selectedFontSize: FontSize = .regular
+//    var selectedFont: BookFont = .systemDefault
+//    var selectedReadingMode: ReadingMode = .light
+//}
 
 struct BookCustomizationView: View {
     @Binding var brightness: Double
@@ -325,7 +332,7 @@ struct BookCustomizationView: View {
     @Environment(\.dismiss) private var dismiss
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 30) {
                 // Brightness Slider
                 VStack(alignment: .leading, spacing: 15) {

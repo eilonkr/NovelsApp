@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		954527702E774B2D001B5FB5 /* ObservableDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = 9545276F2E774B2D001B5FB5 /* ObservableDefaults */; };
 		95A02FCA2E48F973007D9DFF /* SettingsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95A02FC92E48F973007D9DFF /* SettingsKit */; };
 /* End PBXBuildFile section */
 
@@ -28,16 +29,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A02FCA2E48F973007D9DFF /* SettingsKit in Frameworks */,
+				954527702E774B2D001B5FB5 /* ObservableDefaults in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9545276B2E774A2C001B5FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		95A02CD22E48CE99007D9DFF = {
 			isa = PBXGroup;
 			children = (
 				95A02CDD2E48CE99007D9DFF /* NovelsApp */,
+				9545276B2E774A2C001B5FB5 /* Frameworks */,
 				95A02CDC2E48CE99007D9DFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +81,7 @@
 			name = NovelsApp;
 			packageProductDependencies = (
 				95A02FC92E48F973007D9DFF /* SettingsKit */,
+				9545276F2E774B2D001B5FB5 /* ObservableDefaults */,
 			);
 			productName = NovelsApp;
 			productReference = 95A02CDB2E48CE99007D9DFF /* NovelsApp.app */;
@@ -102,6 +113,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				95A02FC82E48F973007D9DFF /* XCRemoteSwiftPackageReference "SettingsKit" */,
+				9545276E2E774B2D001B5FB5 /* XCRemoteSwiftPackageReference "ObservableDefaults" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 95A02CDC2E48CE99007D9DFF /* Products */;
@@ -366,6 +378,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9545276E2E774B2D001B5FB5 /* XCRemoteSwiftPackageReference "ObservableDefaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fatbobman/ObservableDefaults.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
 		95A02FC82E48F973007D9DFF /* XCRemoteSwiftPackageReference "SettingsKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/eilonkr/SettingsKit.git";
@@ -377,6 +397,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9545276F2E774B2D001B5FB5 /* ObservableDefaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9545276E2E774B2D001B5FB5 /* XCRemoteSwiftPackageReference "ObservableDefaults" */;
+			productName = ObservableDefaults;
+		};
 		95A02FC92E48F973007D9DFF /* SettingsKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 95A02FC82E48F973007D9DFF /* XCRemoteSwiftPackageReference "SettingsKit" */;

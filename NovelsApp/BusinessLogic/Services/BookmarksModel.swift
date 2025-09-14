@@ -6,11 +6,13 @@
 //
 
 import Foundation
+import ObservableDefaults
 
-@Observable class BookmarksModel {
+@ObservableDefaults(defaultIsolationIsMainActor: true)
+class BookmarksModel {
     var books = [Book]()
     
-    func bookmark(_ book: Book, ) {
+    func bookmark(_ book: Book) {
         books.append(book)
     }
     

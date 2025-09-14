@@ -1,5 +1,5 @@
 {
-  "originHash" : "a675fdc5d29db6f48559aa7b0306e9147e361e7edad0626deb398da891e8e3ab",
+  "originHash" : "a85e67912a7d3bdd2f5ecba8515ac4c03cbabcf9e2dc4583d814136aea6aeea5",
   "pins" : [
     {
       "identity" : "adaptysdk-ios",
@@ -16,7 +16,7 @@
       "location" : "https://github.com/eilonkr/CoreKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "4176a0d6ddd0745c9309a3d553cf574d1eb5bd9d"
+        "revision" : "2ddf39313b77e18bb7ad1e43fa9bb4a571270548"
       }
     },
     {
@@ -38,12 +38,30 @@
       }
     },
     {
+      "identity" : "observabledefaults",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fatbobman/ObservableDefaults.git",
+      "state" : {
+        "revision" : "9927d8208366420c960672c735b48eee3f500c68",
+        "version" : "1.6.0"
+      }
+    },
+    {
       "identity" : "settingskit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eilonkr/SettingsKit.git",
       "state" : {
         "branch" : "main",
         "revision" : "99b78a25712414edce5e0dcf30c0f92a543ef6f7"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax",
+      "state" : {
+        "revision" : "f99ae8aa18f0cf0d53481901f88a0991dc3bd4a2",
+        "version" : "601.0.1"
       }
     }
   ],

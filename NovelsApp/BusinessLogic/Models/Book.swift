@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import ObservableDefaults
 
-struct Book: Decodable, Hashable, Identifiable {
+struct Book: CodableUserDefaultsPropertyListValue, Hashable, Identifiable {
     let id: String
     let title: String
     let author: String
@@ -17,3 +18,5 @@ struct Book: Decodable, Hashable, Identifiable {
     let views: Int
     let coverImageName: String
 }
+
+extension Array<Book>: @retroactive CodableUserDefaultsPropertyListValue { }
