@@ -49,15 +49,27 @@ struct TodaysReadingView: View {
     @Environment(ReadingGoalsModel.self) private var reading
     
     var body: some View {
-        VStack(spacing: 12) {
-            Text("Today's Reading")
-                .font(.system(.body, design: .serif, weight: .semibold))
-            
-            Text(Duration.seconds(reading.todayReadingTime).formatted(.time(pattern: .minuteSecond)))
-                .font(.largeTitle.weight(.semibold))
-                .fontWidth(.expanded)
-            
-            Text("Of your \(reading.dailyGoalMinutes)-minute reading goal")
-        }
+        ReadingProgressView()
+            .overlay(alignment: .bottom) {
+                VStack(spacing: 12) {
+                    Text("Today's Reading")
+                        .font(.system(.body, design: .serif, weight: .semibold))
+                    
+                    Text(Duration.seconds(reading.todayReadingTime).formatted(.time(pattern: .minuteSecond)))
+                        .font(.largeTitle.weight(.semibold))
+                        .fontWidth(.expanded)
+                    
+                    Text("Of your \(reading.dailyGoalMinutes)-minute reading goal")
+                }
+            }
+    }
+}
+
+struct ReadingProgressView: View {
+    @Environment(ReadingGoalsModel.self) private var reading
+    
+    var body: some View {
+        SemiCircleProgressView(progress: reading.dailyProgress)
+            .frame(width: 300, height: 150)
     }
 }

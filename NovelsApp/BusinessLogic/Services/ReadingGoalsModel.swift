@@ -84,6 +84,12 @@ class ReadingGoalsModel {
         return max(0, dailyGoalMinutes - todayReadingTime)
     }
     
+    /// Returns daily progress as a value between 0.0 and 1.0
+    var dailyProgress: Double {
+        guard dailyGoalMinutes > 0 else { return 0.0 }
+        return min(1.0, Double(todayReadingTime) / Double(dailyGoalMinutes))
+    }
+    
     // MARK: - Private Properties
     
     private let dateFormatter: DateFormatter = {
