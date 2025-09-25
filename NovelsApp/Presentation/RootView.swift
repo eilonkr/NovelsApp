@@ -35,6 +35,7 @@ struct RootView: View {
     @State private var bookmarksModel = BookmarksModel()
     @State private var readingLibrary = ReadingLibrary()
     @State private var readingGoals = ReadingGoalsModel()
+    @State private var presentedSheet: GlobalSheet?
     @AppStorage("currentTab") private var currentTab = AppTab.discover
     
     var body: some View {
@@ -47,10 +48,14 @@ struct RootView: View {
                     .tag(tab)
             }
         }
+        .sheet(item: $presentedSheet, content: view(for:))
         .environment(dataSource)
         .environment(bookmarksModel)
         .environment(readingLibrary)
         .environment(readingGoals)
+        .environment(\.showSheet, SheetAction { sheet in
+            presentedSheet = sheet
+        })
     }
     
     @ViewBuilder private func tabView(for tab: AppTab) -> some View {
@@ -61,6 +66,14 @@ struct RootView: View {
         case .myBooks:
             MyBooksView()
                 .bookTransitionRoot()
+        }
+    }
+    
+    @ViewBuilder private func view(for sheet: GlobalSheet) -> some View {
+        switch sheet {
+        case .changeReadingGoals:
+            ChangeReadingGoalsView()
+                .presentationDetents([.medium])
         }
     }
 }

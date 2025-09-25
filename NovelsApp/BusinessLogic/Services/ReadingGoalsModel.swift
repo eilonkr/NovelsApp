@@ -6,10 +6,11 @@
 //
 
 import Foundation
-import Observation
+import ObservableDefaults
 
-@Observable class ReadingGoalsModel {
-    let dailyGoalMinutes: Int = 5
+@ObservableDefaults(defaultIsolationIsMainActor: true)
+class ReadingGoalsModel {
+    var dailyGoalMinutes: Int = 5
     
     /// Dictionary to store completed reading sessions by date
     private var readingSessions: [String: [ReadingSession]] = [:]
@@ -20,7 +21,7 @@ import Observation
     // MARK: - Data Models
     
     /// Represents a single reading session
-    struct ReadingSession {
+    struct ReadingSession: CodableUserDefaultsPropertyListValue {
         let startTime: Date
         var endTime: Date?
         
@@ -149,3 +150,5 @@ import Observation
         readingSessions.removeAll()
     }
 }
+
+extension Dictionary<String, [ReadingGoalsModel.ReadingSession]>: @retroactive CodableUserDefaultsPropertyListValue { }

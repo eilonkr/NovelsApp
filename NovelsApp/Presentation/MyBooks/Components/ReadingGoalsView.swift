@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ReadingGoalsView: View {
+    @Environment(\.showSheet) private var showSheet
+    
     var body: some View {
         VStack(spacing: 32) {
             VStack(spacing: 12) {
@@ -21,10 +23,25 @@ struct ReadingGoalsView: View {
             .multilineTextAlignment(.center)
             
             TodaysReadingView()
+            
+            changeReadingGoalsButton()
         }
         .padding(EdgeInsets(top: 32, leading: 24, bottom: 32, trailing: 24))
         .background(.background)
         .clipShape(RoundedRectangle(cornerRadius: 30))
+    }
+    
+    private func changeReadingGoalsButton() -> some View {
+        Button {
+            showSheet(.changeReadingGoals)
+        } label: {
+            Text("Change reading goals")
+                .font(.body.weight(.semibold))
+                .frame(width: 300, height: 50)
+                .background(Color.accentColor)
+                .clipShape(.capsule)
+        }
+        .buttonStyle(.plain)
     }
 }
 

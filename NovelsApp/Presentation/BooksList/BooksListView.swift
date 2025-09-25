@@ -12,7 +12,15 @@ struct BooksListView: View {
     
     var body: some View {
         ScrollView {
-            Text("Books list")
+            VStack(alignment: .leading, spacing: 24) {
+                Text(shelf.title)
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 16)
+                
+                BookVerticalListView(books: shelf.books)
+            }
+            .padding(.top, 16)
         }
         .toolbarVisibility(.hidden, for: .tabBar)
     }
